@@ -1,3 +1,4 @@
+.idea
 *.pyc
 .tox
 *.egg-info/
