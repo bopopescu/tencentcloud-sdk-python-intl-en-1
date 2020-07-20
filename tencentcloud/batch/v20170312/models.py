@@ -2633,7 +2633,7 @@ class OutputMappingConfig(AbstractModel):
 
 
 class Placement(AbstractModel):
-    """Describes the location of an instance, including its availability zone, project, host (for CDH products only), master host IP, etc.
+    """Describes the location of an instance, including its availability zone, project, host (for CDH products only), main host IP, etc.
 
     """
 
@@ -2645,7 +2645,7 @@ class Placement(AbstractModel):
         :type ProjectId: int
         :param HostIds: ID list of CDHs from which the instance can be created. If you have purchased CDHs and specify this parameter, the instances you purchase will be randomly deployed on the CDHs.
         :type HostIds: list of str
-        :param HostIps: Master host IP used to create the CVM
+        :param HostIps: Main host IP used to create the CVM
         :type HostIps: list of str
         """
         self.Zone = None
